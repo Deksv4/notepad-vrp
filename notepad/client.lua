@@ -181,3 +181,8 @@ Citizen.CreateThread(function()
         end
     end 
 end)
+
+
+function hehe(boi)
+    print(boi)
+end
